@@ -3,8 +3,8 @@ import { Text, View, Animated, Easing } from "react-native";
 import { Font } from "expo";
 import { createIconSetFromFontello } from "@expo/vector-icons";
 import * as Animatable from "react-native-animatable";
-import fontellConfig from "../../assets/fonts/config.json";
-const Icon = createIconSetFromFontello(fontellConfig, "WeatherIcon");
+import fontelloConfig from "../../assets/fonts/config.json";
+const Icon = createIconSetFromFontello(fontelloConfig, "WeatherIcon");
 
 const AnimatableIcon = Animatable.createAnimatableComponent(Icon);
 
@@ -18,37 +18,33 @@ export default class WeatherIcon extends Component {
       WeatherIcon: require("../../assets/fonts/fontello.ttf")
     });
     this.setState({ fontLoaded: true });
-    this.props.shouldRotate && this.animation();
-  };
-  animation = () => {
-    this.spinValue.setValue(0);
-
-    Animated.timing(this.spinValue, {
-      toValue: 1,
-      duration: 3000,
-      easing: Easing.linear
-    }).start(() => {
-      this.animation();
-    });
   };
 
   render() {
-    const spin = this.spinValue.interpolate({
-      inputRange: [0, 1],
-      outputRange: ["0deg", "360deg"]
-    });
-    return (
-      <Fragment>
-        {this.state.fontLoaded && (
-          <AnimatableIcon
-            name={this.props.name}
-            size={this.props.size}
-            animation="rotate"
-            iterationCount={"infinite"}
-            easing={"linear"}
-          />
-        )}
-      </Fragment>
-    );
+    if (this.state.fontLoaded) {
+      return (
+        <Fragment>
+          {this.props.animated ? (
+            <AnimatableIcon
+              name={this.props.name}
+              size={this.props.size}
+              color={this.props.color}
+              animation={this.props.animation}
+              iterationCount={"infinite"}
+              easing={"linear"}
+              duration={this.props.duration}
+              style={this.props.style || {}}
+            />
+          ) : (
+            <Icon
+              name={this.props.name}
+              size={this.props.size}
+              color={this.props.color}
+            />
+          )}
+        </Fragment>
+      );
+    }
+    return null;
   }
 }
