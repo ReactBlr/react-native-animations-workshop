@@ -1,19 +1,24 @@
 {
-  "name": "empty-project-template",
-  "main": "node_modules/expo/AppEntry.js",
+  "name": "ReactNativeAnimationsWorkshop",
+  "version": "0.0.1",
   "private": true,
   "scripts": {
-    "start": "expo start -c",
-    "android": "expo start --android",
-    "ios": "expo start --ios",
-    "eject": "expo eject"
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
   },
   "dependencies": {
-    "expo": "^30.0.0",
-    "react": "16.3.1",
-    "react-native": "https://github.com/expo/react-native/archive/sdk-30.0.0.tar.gz",
-    "react-native-animatable": "^1.3.0",
-    "react-navigation": "^2.13.0",
-    "react-navigation-fluid-transitions": "^0.2.6"
+    "lottie-react-native": "^2.5.8",
+    "react": "16.2.0",
+    "react-native": "^0.55.4",
+    "react-navigation": "^2.11.2"
+  },
+  "devDependencies": {
+    "babel-jest": "22.0.6",
+    "babel-preset-react-native": "4.0.0",
+    "jest": "22.0.6",
+    "react-test-renderer": "16.2.0"
+  },
+  "jest": {
+    "preset": "react-native"
   }
 }
