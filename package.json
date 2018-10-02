@@ -1,0 +1,26 @@
+{
+  "name": "react-native-animations-workshop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "mdx-deck workshop.mdx",
+    "build": "mdx-deck build --no-html workshop.mdx -d .build",
+    "deploy": "netlifyctl deploy -P ./.build -n reactblr-animations"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ReactBangalore/react-native-animations-workshop.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ReactBangalore/react-native-animations-workshop/issues"
+  },
+  "homepage": "https://github.com/ReactBangalore/react-native-animations-workshop#readme",
+  "devDependencies": {
+    "mdx-deck": "^1.7.7",
+    "mdx-deck-code-surfer": "^0.4.1",
+    "raw-loader": "^0.5.1"
+  }
+}
