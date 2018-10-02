@@ -1,5 +1,7 @@
 /** @format */
 
+// "start": "node node_modules/react-native/local-cli/cli.js start"
+
 import { AppRegistry, YellowBox} from 'react-native';
 import App from './App';
 import {name as appName} from './app.json';
@@ -9,6 +11,8 @@ YellowBox.ignoreWarnings([
     'Module RCTImageLoader requires main queue setup',
     'Class RCTCxxModule'
 ]);
+
+
 
 
 AppRegistry.registerComponent(appName, () => App);

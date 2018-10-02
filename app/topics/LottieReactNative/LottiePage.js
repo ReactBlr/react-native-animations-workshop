@@ -7,23 +7,27 @@
  */
 
 import React, { Component } from 'react';
-import { Platform, StyleSheet, Text, View } from 'react-native';
+import { Platform, StyleSheet, Text, View, TouchableWithoutFeedback } from 'react-native';
 import LottieView from 'lottie-react-native';
 import lottieImage from '../../../images/lottieImage.json';
 
-export default class App extends Component {
+export default class LottiePage extends Component {
 
     render() {
         return (
             <View style={styles.container}>
                 <Text style={styles.welcome}>Welcome to React Native!</Text>
-                <LottieView
-                    autoPlay={true}
-                    loop
-                    ref={animation => { this.animation = animation }}
-                    source={lottieImage}
-                    style={styles.lottieStyle}
-                />
+                <TouchableWithoutFeedback onPress={()=>{
+                    this.props.navigation.navigate('layoutAnimation')
+                }}>
+                    <LottieView
+                        autoPlay={true}
+                        loop
+                        ref={animation => { this.animation = animation }}
+                        source={lottieImage}
+                        style={styles.lottieStyle}
+                    />
+                </TouchableWithoutFeedback>
             </View>
         );
     }

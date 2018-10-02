@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "start": "mdx-deck presentation.mdx --hot",
     "test": "jest"
   },
   "dependencies": {
@@ -16,6 +16,7 @@
     "babel-jest": "22.0.6",
     "babel-preset-react-native": "4.0.0",
     "jest": "22.0.6",
+    "mdx-deck": "^1.7.7",
     "react-test-renderer": "16.2.0"
   },
   "jest": {
