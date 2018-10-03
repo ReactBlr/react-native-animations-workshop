@@ -11,6 +11,7 @@ import {
   Dimensions,
   Easing
 } from "react-native";
+import { Constants } from "expo";
 import { EvilIcons } from "@expo/vector-icons";
 import * as Animatable from "react-native-animatable";
 import WeatherIcon from "./WeatherIcon";
@@ -19,6 +20,9 @@ import Swinging from "./Swinging";
 const { width, height } = Dimensions.get("window");
 
 export default class Weather extends Component {
+  static navigationOptions = {
+    header: null
+  };
   state = {
     selectedIndex: 1,
     previousIndex: 1
@@ -43,6 +47,7 @@ export default class Weather extends Component {
     const nightFlex = this.state.selectedIndex === 3 ? 6 : 3;
     return (
       <View style={{ flex: 1 }}>
+        <View style={styles.statusBar} />
         <View
           style={{
             flex: 1,
@@ -353,6 +358,14 @@ export default class Weather extends Component {
 }
 
 const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: "#fff"
+  },
+  statusBar: {
+    backgroundColor: "#8ba892",
+    height: Constants.statusBarHeight
+  },
   dayTypeText: {
     color: "#f5e5cf",
     fontFamily: "monospace",
