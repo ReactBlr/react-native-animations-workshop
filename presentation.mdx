@@ -1,38 +1,78 @@
 import { Split, FullScreenCode } from 'mdx-deck/layouts'
-import {Appear} from 'mdx-deck'
+import {Image, Appear, ul, li, div, span} from 'mdx-deck'
+export { future as theme } from 'mdx-deck/themes'
 
-export { dark as theme } from 'mdx-deck/themes'
-
-## React Native Animations WorkShop
+### React Native Animations WorkShop
 ---
 ### Agenda
-- Why Animations important in Mobile
-- Layout Animations 
-- Animated
-- Gesture Systems
-- Animation Libraries 
-- Lottie Implementation
-- Performance tips
+1. Why Animations important in Mobile
+2. Layout Animations 
+3. Animated
+4. Gesture Systems
+5. Animation Libraries 
+6. Lottie Implementation
+7. Performance tips
 ---
 ### Why Animations important in Mobile
-- Better user experience and understanding
-- Visual Feedback (User interactions)
-- System status (Ticket status bar)
-- User Engagement (Facebook emoji's, Tinder Swipe)  
+----    
+
+
+---
+export default Split
+
+<span>Better User Experience</span>
+
+<Image width="500px" height="500px" src='https://imagejournal.org/wp-content/uploads/bb-plugin/cache/23466317216_b99485ba14_o-panorama.jpg' />
+
+---
+
+export default Split
+
+<span>Visual Feedback (User interactions)</span>
+
+<Image width="500px" height="500px" src='https://imagejournal.org/wp-content/uploads/bb-plugin/cache/23466317216_b99485ba14_o-panorama.jpg' />
+
+---
+
+export default Split
+
+<span>System status (Ticket status bar)</span>
+
+<Image width="500px" height="500px" src='https://imagejournal.org/wp-content/uploads/bb-plugin/cache/23466317216_b99485ba14_o-panorama.jpg' />
+
+---
+
+export default Split
+
+<span>User Engagement <br/>(Facebook emoji's, Tinder Swipe)</span>
+
+<Image width="500px" height="500px" src='https://imagejournal.org/wp-content/uploads/bb-plugin/cache/23466317216_b99485ba14_o-panorama.jpg' />
+
 ---
 ### Layout Animations
 - What is LayoutAnimation? <br/>
-Automatically animates views to their new positions when the next layout happens.
+ "Automatically animates views to their new positions when the next layout happens."
 ---
 ### Lottie Implementation
--
+```jsx
+<LottieView
+    autoPlay={true}
+    loop
+    ref={animation => { this.animation = animation }}
+    source={lottieImage}
+    style={styles.lottieStyle}
+/>
 ---
 ### Performance Tips
-- ShouldComponentUpdate   
-- UseNativeDriver = true
-- Use interpolation rather than parallal and sequence Animations
-- Avoid animating height and width, use scaleX and scaleY instead
-- Use this line to make animations work in Android: <span>"UIManager.setLayoutAnimationEnabledExperimental && UIManager.setLayoutAnimationEnabledExperimental(true)"</span>
-- Use removeClippedSubview = true (reduce memory)
-- Lazy = true, createBottomTabNavigator react navigation
-- Avoid to use componentDidUpdate
+<ul style={{textAlign: "left"}}>
+  <Appear>
+    <li>ShouldComponentUpdate </li>
+    <li>UseNativeDriver = true</li>
+    <li>Use interpolation rather than parallal and sequence Animations</li>
+    <li>Avoid animating height and width, use scaleX and scaleY instead</li>
+    <li>Use this line to make animations work in Android: <br/> <span>"UIManager.setLayoutAnimationEnabledExperimental && UIManager.setLayoutAnimationEnabledExperimental(true)"</span></li>
+    <li>Use removeClippedSubview = true (reduce memory)</li>
+    <li>Lazy = true, createBottomTabNavigator react navigation</li>
+    <li>Avoid to use componentDidUpdate</li>
+  </Appear>
+</ul>
