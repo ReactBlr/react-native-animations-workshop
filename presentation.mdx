@@ -15,20 +15,24 @@ export { dark as theme } from 'mdx-deck/themes'
 - Performance tips
 ---
 ### Why Animations important in Mobile
+- Better user experience and understanding
 - Visual Feedback (User interactions)
 - System status (Ticket status bar)
-- User Engagement (Facebook emoji's, Tinder Swipe)
-- 
+- User Engagement (Facebook emoji's, Tinder Swipe)  
 ---
 ### Layout Animations
-- 
+- What is LayoutAnimation? <br/>
+Automatically animates views to their new positions when the next layout happens.
 ---
 ### Lottie Implementation
 -
 ---
 ### Performance Tips
-- shouldComponentUpdate
-- useNativeDriver = true
-- use interpolation rather than parallal and sequence Animations
+- ShouldComponentUpdate   
+- UseNativeDriver = true
+- Use interpolation rather than parallal and sequence Animations
 - Avoid animating height and width, use scaleX and scaleY instead
-- use this line to make animations work in Android: <h6>"UIManager.setLayoutAnimationEnabledExperimental && UIManager.setLayoutAnimationEnabledExperimental(true)"</h6>
+- Use this line to make animations work in Android: <span>"UIManager.setLayoutAnimationEnabledExperimental && UIManager.setLayoutAnimationEnabledExperimental(true)"</span>
+- Use removeClippedSubview = true (reduce memory)
+- Lazy = true, createBottomTabNavigator react navigation
+- Avoid to use componentDidUpdate
