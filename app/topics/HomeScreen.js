@@ -17,7 +17,7 @@ export default class HomeScreen extends Component {
             <View style={styles.container}>
                 <Text style={styles.welcome}>Welcome to React Native!</Text>
                 <TouchableOpacity onPress={() => {
-                    this.props.navigation.navigate('layoutAnimation')
+                    this.props.navigation.navigate('basicAnimation')
                 }}>
                     <Text style={[styles.buttonText,styles.welcome]}>Navigate to Layout Animation</Text>
                 </TouchableOpacity>

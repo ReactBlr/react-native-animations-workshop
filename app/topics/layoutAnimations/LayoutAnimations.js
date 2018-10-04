@@ -83,7 +83,6 @@ function keyMirror(obj) {
 };
 
 export default class LayoutAnimations extends React.Component {
-
     constructor(props) {
         super(props);
 
@@ -136,9 +135,7 @@ export default class LayoutAnimations extends React.Component {
                     title={"Animate"}
                     onPress={() => {
                         LayoutAnimation.configureNext(animationConfigs.get(this.state.animation))
-
                         let newState = { isViewOnTheLeft: !this.state.isViewOnTheLeft }
-
                         // Other special behavior
                         switch (this.state.animation) {
                             case AnimationType.fade:
@@ -152,7 +149,6 @@ export default class LayoutAnimations extends React.Component {
                                 this.hiddenTextInput.isFocused() ? this.hiddenTextInput.blur() : this.hiddenTextInput.focus()
                                 break
                         }
-
                         this.setState(newState)
                     }}
                 />
