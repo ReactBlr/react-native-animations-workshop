@@ -17,12 +17,12 @@ export default class HomeScreen extends Component {
             <View style={styles.container}>
                 <Text style={styles.welcome}>Welcome to React Native!</Text>
                 <TouchableOpacity onPress={() => {
-                    this.props.navigation.navigate('basicAnimation')
+                    this.props.navigation.navigate('layoutAnimation')
                 }}>
                     <Text style={[styles.buttonText,styles.welcome]}>Navigate to Layout Animation</Text>
                 </TouchableOpacity>
                 <TouchableOpacity onPress={() => {
-                    this.props.navigation.navigate('lottiePage')
+                    this.props.navigation.navigate('welcomeLottie')
                 }}>
                     <Text style={[styles.buttonText, styles.welcome]}>Navigate to Lottie Animation</Text>
                 </TouchableOpacity>

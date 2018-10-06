@@ -57,7 +57,7 @@ const animationConfigs = new Map([
         update: {
             type: LayoutAnimation.Types.spring,
             property: LayoutAnimation.Properties.scaleXY,
-            springDamping: 0.6
+            springDamping: 0.8
         }
     }],
     [AnimationType.fade, {
@@ -82,7 +82,8 @@ function keyMirror(obj) {
     return ret;
 };
 
-export default class LayoutAnimations extends React.Component {
+export default class App extends React.Component {
+
     constructor(props) {
         super(props);
 
@@ -135,7 +136,9 @@ export default class LayoutAnimations extends React.Component {
                     title={"Animate"}
                     onPress={() => {
                         LayoutAnimation.configureNext(animationConfigs.get(this.state.animation))
+
                         let newState = { isViewOnTheLeft: !this.state.isViewOnTheLeft }
+
                         // Other special behavior
                         switch (this.state.animation) {
                             case AnimationType.fade:
@@ -149,6 +152,7 @@ export default class LayoutAnimations extends React.Component {
                                 this.hiddenTextInput.isFocused() ? this.hiddenTextInput.blur() : this.hiddenTextInput.focus()
                                 break
                         }
+
                         this.setState(newState)
                     }}
                 />
