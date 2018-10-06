@@ -29,7 +29,7 @@ export default class LottiePage extends Component {
                     style={styles.lottieStyle}
                 />
                 <TouchableWithoutFeedback onPress={() => {
-                    this.props.navigation.navigate('statusBar')
+                    this.props.navigation.navigate('stepComponent')
                 }}>
                     <View style={styles.buttonView}>
                         <Text style={styles.buttonText}>>> Navigate to StatusBar</Text>

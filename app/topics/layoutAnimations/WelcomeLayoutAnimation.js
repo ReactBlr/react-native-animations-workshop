@@ -19,12 +19,12 @@ export default class BasicLayoutAnimation extends Component {
     }
 
     decrementSize() {
-        LayoutAnimation.configureNext(LayoutAnimation.Presets.linear);
+        LayoutAnimation.configureNext(LayoutAnimation.Presets.linear); // Linear Layout Animation
         this.setState({ height: this.state.height - 50, width: this.state.width - 50 });
     }
 
     incrementSize() {
-        LayoutAnimation.configureNext(LayoutAnimation.Presets.spring);
+        LayoutAnimation.configureNext(LayoutAnimation.Presets.spring); // Spring Layout Animation
         this.setState({ height: this.state.height + 50, width: this.state.width + 50 })
     }
 

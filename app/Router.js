@@ -4,7 +4,7 @@ import HomeScreen from './topics/HomeScreen';
 import WelcomeLottie from './topics/LottieReactNative/WelcomeLottie';
 import LayoutAnimation from './topics/layoutAnimations/LayoutAnimations';
 import WelcomeLayoutAnimation from './topics/layoutAnimations/WelcomeLayoutAnimation';
-import StatusBar from './topics/LottieReactNative/StatusBar';
+import StepComponent from './topics/LottieReactNative/StepComponent';
 
 const AppRoute = createStackNavigator({
     homeScreen: {
@@ -19,10 +19,10 @@ const AppRoute = createStackNavigator({
             title: 'Welcome Lottie'
         })
     },
-    statusBar: {
-        screen: StatusBar,
+    stepComponent: {
+        screen: StepComponent,
         navigationOptions: ({ navigation }) => ({
-            title: 'Lottie Status Bar'
+            title: 'Lottie StepComponent'
         })
     },
     welcomeLayoutAnimation:{

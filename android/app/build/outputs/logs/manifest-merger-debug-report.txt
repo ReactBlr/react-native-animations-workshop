@@ -1,0 +1,166 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/mahesh/Documents/GitHub/react-native-animations-workshop/android/app/src/main/AndroidManifest.xml:1:1-26:12
+INJECTED from /Users/mahesh/Documents/GitHub/react-native-animations-workshop/android/app/src/main/AndroidManifest.xml:1:1-26:12
+INJECTED from /Users/mahesh/Documents/GitHub/react-native-animations-workshop/android/app/src/main/AndroidManifest.xml:1:1-26:12
+INJECTED from /Users/mahesh/Documents/GitHub/react-native-animations-workshop/android/app/src/main/AndroidManifest.xml:1:1-26:12
+MERGED from [:lottie-react-native] /Users/mahesh/Documents/GitHub/react-native-animations-workshop/node_modules/lottie-react-native/src/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [com.facebook.react:react-native:0.55.4] /Users/mahesh/.gradle/caches/transforms-1/files-1.1/react-native-0.55.4.aar/15c6a1420fe1f65b9c66abd15976e8bf/AndroidManifest.xml:2:1-15:12
+MERGED from [com.airbnb.android:lottie:2.5.5] /Users/mahesh/.gradle/caches/transforms-1/files-1.1/lottie-2.5.5.aar/215aca0687051b30f5c1c2105c7cc444/AndroidManifest.xml:2:1-13:12
+MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/mahesh/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/2c47a6a5696a1c412ea991e3fb92e87a/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.1.1] /Users/mahesh/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/c6df3eba376616d04faf5675e6e12f68/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/mahesh/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/f0424e5e2d8410680cfacf0a0e510561/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.1.1] /Users/mahesh/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/9cfe9957442588b27f75388f8b5673e4/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.1.1] /Users/mahesh/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/2942acb31f1cc130ee8fc360b7003b32/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/mahesh/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/583b49875e4e7ab237ccb1fbd6396dad/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.1.1] /Users/mahesh/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/a6e9857579ad74413a539f65bedc76af/AndroidManifest.xml:17:1-22:12
+MERGED from [com.facebook.fbui.textlayoutbuilder:textlayoutbuilder:1.0.0] /Users/mahesh/.gradle/caches/transforms-1/files-1.1/textlayoutbuilder-1.0.0.aar/b7122b2e8d20452a9ca78e479e9bf920/AndroidManifest.xml:10:1-18:12
+MERGED from [com.facebook.fresco:fresco:1.3.0] /Users/mahesh/.gradle/caches/transforms-1/files-1.1/fresco-1.3.0.aar/be50d733eed12ecd572bedbfd16269c7/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.3.0] /Users/mahesh/.gradle/caches/transforms-1/files-1.1/imagepipeline-okhttp3-1.3.0.aar/592be43d0eea5eff79f93e857504f523/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.soloader:soloader:0.1.0] /Users/mahesh/.gradle/caches/transforms-1/files-1.1/soloader-0.1.0.aar/30b2dca12a863fe8e62e9233f0d7e4b5/AndroidManifest.xml:1:1-4:12
+MERGED from [org.webkit:android-jsc:r174650] /Users/mahesh/.gradle/caches/transforms-1/files-1.1/android-jsc-r174650.aar/301bc1271342f1329c0fea1fd5ec9245/AndroidManifest.xml:1:1-3:12
+MERGED from [com.facebook.fresco:drawee:1.3.0] /Users/mahesh/.gradle/caches/transforms-1/files-1.1/drawee-1.3.0.aar/1421515952b09535fa2820a8cadad87c/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline:1.3.0] /Users/mahesh/.gradle/caches/transforms-1/files-1.1/imagepipeline-1.3.0.aar/8899d0e28e046c6dfe40c6bb23e71ce8/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-base:1.3.0] /Users/mahesh/.gradle/caches/transforms-1/files-1.1/imagepipeline-base-1.3.0.aar/8590bc9a3b9efabf5b34ecd668e628a1/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:fbcore:1.3.0] /Users/mahesh/.gradle/caches/transforms-1/files-1.1/fbcore-1.3.0.aar/309257fec744340986cae78974c557f7/AndroidManifest.xml:2:1-9:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/mahesh/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/970737fcee9046e93a8e84697a2d73c4/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/mahesh/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/e511f230872ceffa42df5dff508a382a/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/mahesh/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/386856e664162ad80bda047848f926b0/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.0] /Users/mahesh/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/1de2fdb1b1f914b63aec5983e9d97d32/AndroidManifest.xml:17:1-22:12
+INJECTED from /Users/mahesh/Documents/GitHub/react-native-animations-workshop/android/app/src/main/AndroidManifest.xml:1:1-26:12
+INJECTED from /Users/mahesh/Documents/GitHub/react-native-animations-workshop/android/app/src/main/AndroidManifest.xml:1:1-26:12
+INJECTED from /Users/mahesh/Documents/GitHub/react-native-animations-workshop/android/app/src/main/AndroidManifest.xml:1:1-26:12
+	package
+		ADDED from /Users/mahesh/Documents/GitHub/react-native-animations-workshop/android/app/src/main/AndroidManifest.xml:2:5-48
+		INJECTED from /Users/mahesh/Documents/GitHub/react-native-animations-workshop/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/mahesh/Documents/GitHub/react-native-animations-workshop/android/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/mahesh/Documents/GitHub/react-native-animations-workshop/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/mahesh/Documents/GitHub/react-native-animations-workshop/android/app/src/main/AndroidManifest.xml:1:1-26:12
+		INJECTED from /Users/mahesh/Documents/GitHub/react-native-animations-workshop/android/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/mahesh/Documents/GitHub/react-native-animations-workshop/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/mahesh/Documents/GitHub/react-native-animations-workshop/android/app/src/main/AndroidManifest.xml:1:1-26:12
+		INJECTED from /Users/mahesh/Documents/GitHub/react-native-animations-workshop/android/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/mahesh/Documents/GitHub/react-native-animations-workshop/android/app/src/main/AndroidManifest.xml:1:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /Users/mahesh/Documents/GitHub/react-native-animations-workshop/android/app/src/main/AndroidManifest.xml:4:5-67
+MERGED from [:lottie-react-native] /Users/mahesh/Documents/GitHub/react-native-animations-workshop/node_modules/lottie-react-native/src/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:9:5-67
+MERGED from [:lottie-react-native] /Users/mahesh/Documents/GitHub/react-native-animations-workshop/node_modules/lottie-react-native/src/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:9:5-67
+	android:name
+		ADDED from /Users/mahesh/Documents/GitHub/react-native-animations-workshop/android/app/src/main/AndroidManifest.xml:4:22-64
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from /Users/mahesh/Documents/GitHub/react-native-animations-workshop/android/app/src/main/AndroidManifest.xml:5:5-77
+MERGED from [com.facebook.react:react-native:0.55.4] /Users/mahesh/.gradle/caches/transforms-1/files-1.1/react-native-0.55.4.aar/15c6a1420fe1f65b9c66abd15976e8bf/AndroidManifest.xml:11:5-78
+MERGED from [com.facebook.react:react-native:0.55.4] /Users/mahesh/.gradle/caches/transforms-1/files-1.1/react-native-0.55.4.aar/15c6a1420fe1f65b9c66abd15976e8bf/AndroidManifest.xml:11:5-78
+	android:name
+		ADDED from /Users/mahesh/Documents/GitHub/react-native-animations-workshop/android/app/src/main/AndroidManifest.xml:5:22-75
+application
+ADDED from /Users/mahesh/Documents/GitHub/react-native-animations-workshop/android/app/src/main/AndroidManifest.xml:7:5-24:19
+MERGED from [com.facebook.react:react-native:0.55.4] /Users/mahesh/.gradle/caches/transforms-1/files-1.1/react-native-0.55.4.aar/15c6a1420fe1f65b9c66abd15976e8bf/AndroidManifest.xml:13:5-20
+MERGED from [com.facebook.react:react-native:0.55.4] /Users/mahesh/.gradle/caches/transforms-1/files-1.1/react-native-0.55.4.aar/15c6a1420fe1f65b9c66abd15976e8bf/AndroidManifest.xml:13:5-20
+MERGED from [com.airbnb.android:lottie:2.5.5] /Users/mahesh/.gradle/caches/transforms-1/files-1.1/lottie-2.5.5.aar/215aca0687051b30f5c1c2105c7cc444/AndroidManifest.xml:11:5-20
+MERGED from [com.airbnb.android:lottie:2.5.5] /Users/mahesh/.gradle/caches/transforms-1/files-1.1/lottie-2.5.5.aar/215aca0687051b30f5c1c2105c7cc444/AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.soloader:soloader:0.1.0] /Users/mahesh/.gradle/caches/transforms-1/files-1.1/soloader-0.1.0.aar/30b2dca12a863fe8e62e9233f0d7e4b5/AndroidManifest.xml:3:3-17
+MERGED from [com.facebook.soloader:soloader:0.1.0] /Users/mahesh/.gradle/caches/transforms-1/files-1.1/soloader-0.1.0.aar/30b2dca12a863fe8e62e9233f0d7e4b5/AndroidManifest.xml:3:3-17
+MERGED from [org.webkit:android-jsc:r174650] /Users/mahesh/.gradle/caches/transforms-1/files-1.1/android-jsc-r174650.aar/301bc1271342f1329c0fea1fd5ec9245/AndroidManifest.xml:2:3-17
+MERGED from [org.webkit:android-jsc:r174650] /Users/mahesh/.gradle/caches/transforms-1/files-1.1/android-jsc-r174650.aar/301bc1271342f1329c0fea1fd5ec9245/AndroidManifest.xml:2:3-17
+	android:label
+		ADDED from /Users/mahesh/Documents/GitHub/react-native-animations-workshop/android/app/src/main/AndroidManifest.xml:9:7-39
+	android:icon
+		ADDED from /Users/mahesh/Documents/GitHub/react-native-animations-workshop/android/app/src/main/AndroidManifest.xml:10:7-41
+	android:allowBackup
+		ADDED from /Users/mahesh/Documents/GitHub/react-native-animations-workshop/android/app/src/main/AndroidManifest.xml:11:7-34
+	android:theme
+		ADDED from /Users/mahesh/Documents/GitHub/react-native-animations-workshop/android/app/src/main/AndroidManifest.xml:12:7-38
+	android:name
+		ADDED from /Users/mahesh/Documents/GitHub/react-native-animations-workshop/android/app/src/main/AndroidManifest.xml:8:7-38
+activity#com.reactnativeanimationsworkshop.MainActivity
+ADDED from /Users/mahesh/Documents/GitHub/react-native-animations-workshop/android/app/src/main/AndroidManifest.xml:13:7-22:18
+	android:label
+		ADDED from /Users/mahesh/Documents/GitHub/react-native-animations-workshop/android/app/src/main/AndroidManifest.xml:15:9-41
+	android:windowSoftInputMode
+		ADDED from /Users/mahesh/Documents/GitHub/react-native-animations-workshop/android/app/src/main/AndroidManifest.xml:17:9-51
+	android:configChanges
+		ADDED from /Users/mahesh/Documents/GitHub/react-native-animations-workshop/android/app/src/main/AndroidManifest.xml:16:9-79
+	android:name
+		ADDED from /Users/mahesh/Documents/GitHub/react-native-animations-workshop/android/app/src/main/AndroidManifest.xml:14:9-37
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/mahesh/Documents/GitHub/react-native-animations-workshop/android/app/src/main/AndroidManifest.xml:18:9-21:25
+action#android.intent.action.MAIN
+ADDED from /Users/mahesh/Documents/GitHub/react-native-animations-workshop/android/app/src/main/AndroidManifest.xml:19:13-65
+	android:name
+		ADDED from /Users/mahesh/Documents/GitHub/react-native-animations-workshop/android/app/src/main/AndroidManifest.xml:19:21-62
+category#android.intent.category.LAUNCHER
+ADDED from /Users/mahesh/Documents/GitHub/react-native-animations-workshop/android/app/src/main/AndroidManifest.xml:20:13-73
+	android:name
+		ADDED from /Users/mahesh/Documents/GitHub/react-native-animations-workshop/android/app/src/main/AndroidManifest.xml:20:23-70
+activity#com.facebook.react.devsupport.DevSettingsActivity
+ADDED from /Users/mahesh/Documents/GitHub/react-native-animations-workshop/android/app/src/main/AndroidManifest.xml:23:7-84
+	android:name
+		ADDED from /Users/mahesh/Documents/GitHub/react-native-animations-workshop/android/app/src/main/AndroidManifest.xml:23:17-81
+uses-sdk
+INJECTED from /Users/mahesh/Documents/GitHub/react-native-animations-workshop/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/mahesh/Documents/GitHub/react-native-animations-workshop/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/mahesh/Documents/GitHub/react-native-animations-workshop/android/app/src/main/AndroidManifest.xml
+MERGED from [:lottie-react-native] /Users/mahesh/Documents/GitHub/react-native-animations-workshop/node_modules/lottie-react-native/src/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:lottie-react-native] /Users/mahesh/Documents/GitHub/react-native-animations-workshop/node_modules/lottie-react-native/src/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.react:react-native:0.55.4] /Users/mahesh/.gradle/caches/transforms-1/files-1.1/react-native-0.55.4.aar/15c6a1420fe1f65b9c66abd15976e8bf/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.55.4] /Users/mahesh/.gradle/caches/transforms-1/files-1.1/react-native-0.55.4.aar/15c6a1420fe1f65b9c66abd15976e8bf/AndroidManifest.xml:7:5-9:41
+MERGED from [com.airbnb.android:lottie:2.5.5] /Users/mahesh/.gradle/caches/transforms-1/files-1.1/lottie-2.5.5.aar/215aca0687051b30f5c1c2105c7cc444/AndroidManifest.xml:7:5-9:41
+MERGED from [com.airbnb.android:lottie:2.5.5] /Users/mahesh/.gradle/caches/transforms-1/files-1.1/lottie-2.5.5.aar/215aca0687051b30f5c1c2105c7cc444/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/mahesh/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/2c47a6a5696a1c412ea991e3fb92e87a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/mahesh/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/2c47a6a5696a1c412ea991e3fb92e87a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] /Users/mahesh/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/c6df3eba376616d04faf5675e6e12f68/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] /Users/mahesh/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/c6df3eba376616d04faf5675e6e12f68/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/mahesh/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/f0424e5e2d8410680cfacf0a0e510561/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/mahesh/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/f0424e5e2d8410680cfacf0a0e510561/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] /Users/mahesh/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/9cfe9957442588b27f75388f8b5673e4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] /Users/mahesh/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/9cfe9957442588b27f75388f8b5673e4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] /Users/mahesh/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/2942acb31f1cc130ee8fc360b7003b32/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] /Users/mahesh/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/2942acb31f1cc130ee8fc360b7003b32/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/mahesh/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/583b49875e4e7ab237ccb1fbd6396dad/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/mahesh/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/583b49875e4e7ab237ccb1fbd6396dad/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] /Users/mahesh/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/a6e9857579ad74413a539f65bedc76af/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] /Users/mahesh/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/a6e9857579ad74413a539f65bedc76af/AndroidManifest.xml:20:5-44
+MERGED from [com.facebook.fbui.textlayoutbuilder:textlayoutbuilder:1.0.0] /Users/mahesh/.gradle/caches/transforms-1/files-1.1/textlayoutbuilder-1.0.0.aar/b7122b2e8d20452a9ca78e479e9bf920/AndroidManifest.xml:14:5-16:41
+MERGED from [com.facebook.fbui.textlayoutbuilder:textlayoutbuilder:1.0.0] /Users/mahesh/.gradle/caches/transforms-1/files-1.1/textlayoutbuilder-1.0.0.aar/b7122b2e8d20452a9ca78e479e9bf920/AndroidManifest.xml:14:5-16:41
+MERGED from [com.facebook.fresco:fresco:1.3.0] /Users/mahesh/.gradle/caches/transforms-1/files-1.1/fresco-1.3.0.aar/be50d733eed12ecd572bedbfd16269c7/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fresco:1.3.0] /Users/mahesh/.gradle/caches/transforms-1/files-1.1/fresco-1.3.0.aar/be50d733eed12ecd572bedbfd16269c7/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.3.0] /Users/mahesh/.gradle/caches/transforms-1/files-1.1/imagepipeline-okhttp3-1.3.0.aar/592be43d0eea5eff79f93e857504f523/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.3.0] /Users/mahesh/.gradle/caches/transforms-1/files-1.1/imagepipeline-okhttp3-1.3.0.aar/592be43d0eea5eff79f93e857504f523/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.soloader:soloader:0.1.0] /Users/mahesh/.gradle/caches/transforms-1/files-1.1/soloader-0.1.0.aar/30b2dca12a863fe8e62e9233f0d7e4b5/AndroidManifest.xml:2:3-70
+MERGED from [com.facebook.soloader:soloader:0.1.0] /Users/mahesh/.gradle/caches/transforms-1/files-1.1/soloader-0.1.0.aar/30b2dca12a863fe8e62e9233f0d7e4b5/AndroidManifest.xml:2:3-70
+MERGED from [com.facebook.fresco:drawee:1.3.0] /Users/mahesh/.gradle/caches/transforms-1/files-1.1/drawee-1.3.0.aar/1421515952b09535fa2820a8cadad87c/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:1.3.0] /Users/mahesh/.gradle/caches/transforms-1/files-1.1/drawee-1.3.0.aar/1421515952b09535fa2820a8cadad87c/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:1.3.0] /Users/mahesh/.gradle/caches/transforms-1/files-1.1/imagepipeline-1.3.0.aar/8899d0e28e046c6dfe40c6bb23e71ce8/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:1.3.0] /Users/mahesh/.gradle/caches/transforms-1/files-1.1/imagepipeline-1.3.0.aar/8899d0e28e046c6dfe40c6bb23e71ce8/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:1.3.0] /Users/mahesh/.gradle/caches/transforms-1/files-1.1/imagepipeline-base-1.3.0.aar/8590bc9a3b9efabf5b34ecd668e628a1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:1.3.0] /Users/mahesh/.gradle/caches/transforms-1/files-1.1/imagepipeline-base-1.3.0.aar/8590bc9a3b9efabf5b34ecd668e628a1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:1.3.0] /Users/mahesh/.gradle/caches/transforms-1/files-1.1/fbcore-1.3.0.aar/309257fec744340986cae78974c557f7/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:1.3.0] /Users/mahesh/.gradle/caches/transforms-1/files-1.1/fbcore-1.3.0.aar/309257fec744340986cae78974c557f7/AndroidManifest.xml:5:5-7:41
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/mahesh/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/970737fcee9046e93a8e84697a2d73c4/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/mahesh/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/970737fcee9046e93a8e84697a2d73c4/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/mahesh/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/e511f230872ceffa42df5dff508a382a/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/mahesh/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/e511f230872ceffa42df5dff508a382a/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/mahesh/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/386856e664162ad80bda047848f926b0/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/mahesh/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/386856e664162ad80bda047848f926b0/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] /Users/mahesh/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/1de2fdb1b1f914b63aec5983e9d97d32/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] /Users/mahesh/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/1de2fdb1b1f914b63aec5983e9d97d32/AndroidManifest.xml:20:5-44
+INJECTED from /Users/mahesh/Documents/GitHub/react-native-animations-workshop/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/mahesh/Documents/GitHub/react-native-animations-workshop/android/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/mahesh/Documents/GitHub/react-native-animations-workshop/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/mahesh/Documents/GitHub/react-native-animations-workshop/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/mahesh/Documents/GitHub/react-native-animations-workshop/android/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/mahesh/Documents/GitHub/react-native-animations-workshop/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/mahesh/Documents/GitHub/react-native-animations-workshop/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/mahesh/Documents/GitHub/react-native-animations-workshop/android/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+IMPLIED from /Users/mahesh/Documents/GitHub/react-native-animations-workshop/android/app/src/main/AndroidManifest.xml:1:1-26:12 reason: org.webkit.android_jsc has a targetSdkVersion < 4
+uses-permission#android.permission.READ_PHONE_STATE
+IMPLIED from /Users/mahesh/Documents/GitHub/react-native-animations-workshop/android/app/src/main/AndroidManifest.xml:1:1-26:12 reason: org.webkit.android_jsc has a targetSdkVersion < 4
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+IMPLIED from /Users/mahesh/Documents/GitHub/react-native-animations-workshop/android/app/src/main/AndroidManifest.xml:1:1-26:12 reason: org.webkit.android_jsc requested WRITE_EXTERNAL_STORAGE
